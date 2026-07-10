@@ -25,17 +25,17 @@ Dự án này em làm để tự động hóa việc lưu trữ log hệ thống
 
 ## Các Bước Cài Đặt Và Chạy Script
 
-### 1. Tạo thư mục chứa dự án trên máy ảo EC2
+1. Tạo thư mục chứa dự án trên máy ảo EC2
 
-mkdir -p ~/linux-backup-project
-cd ~/linux-backup-project
+* mkdir -p ~/linux-backup-project
+* cd ~/linux-backup-project
 
-### 2. Cấp quyền thực thi cho file script
+2. Cấp quyền thực thi cho file script
 
-chmod +x backup_to_s3.sh
+* chmod +x backup_to_s3.sh
 
-### 3. Cài đặt Cronjob dđể script tự chạy vào 2 giờ sáng mỗi ngày
+3. Cài đặt Cronjob dđể script tự chạy vào 2 giờ sáng mỗi ngày
 
-Mở trình quản lý Cronjob bằng lệnh: crontab -e
+* Mở trình quản lý Cronjob bằng lệnh: crontab -e
 
 
