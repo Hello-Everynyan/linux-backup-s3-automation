@@ -1,0 +1,11 @@
+#
+*.log
+backup.log
+
+#
+*.tar.gz
+
+#
+.aws/
+credentials
+config
