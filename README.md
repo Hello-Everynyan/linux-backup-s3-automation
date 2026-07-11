@@ -37,5 +37,5 @@ Dự án này em làm để tự động hóa việc lưu trữ log hệ thống
 3. Cài đặt Cronjob dđể script tự chạy vào 2 giờ sáng mỗi ngày
 
 * Mở trình quản lý Cronjob bằng lệnh: crontab -e
-
-
+---
+**Tối ưu chi phí với S3 Lifecycle Policy:** Cấu hình quy tắc vòng đời trên S3 Bucket để tự động xóa vĩnh viễn các file log cũ sau 30 ngày lưu trữ, giúp tiết kiệm chi phí dung lượng cho hệ thống.
