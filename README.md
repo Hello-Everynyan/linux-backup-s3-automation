@@ -30,7 +30,7 @@ Dự án này em làm để tự động hóa việc lưu trữ log hệ thống
 * mkdir -p ~/linux-backup-project
 * cd ~/linux-backup-project
 
-2. Cấp quyền thực thi cho file script
+2. Tạo và cấp quyền thực thi cho file script
 
 * chmod +x backup_to_s3.sh
 
